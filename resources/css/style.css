@@ -24,6 +24,7 @@ header{
 	justify-content: space-around;
 	align-items:center;
 	height:4rem;
+	z-index:5;
 }
 
 #topnav-mobile ul li img{
@@ -37,6 +38,7 @@ header{
 }
 
 .main-story-img{
+	margin-top:4rem;
 	width:100%;
 	height:auto;
 }
@@ -64,6 +66,8 @@ header{
 	font-weight:bold;
 	padding-bottom:2rem;
 	color:black;
+	line-height:1.25;
+	margin-left:1rem;
 }
 
 .banner-snippet p{
@@ -71,6 +75,7 @@ header{
 	font-weight:bold;
 	line-height:1.5;
 	padding-bottom:1.5rem;
+	margin:1rem;
 }
 
 .banner-snippet p a{
@@ -82,8 +87,8 @@ header{
 	display:flex;
 	justify-content:center;
 	padding:1rem 6rem 1rem 6rem;
-	margin-left:16px;
-	margin-right:16px;
+	margin-left:1rem;
+	margin-right:1rem;
 }
 
 #main-story{
