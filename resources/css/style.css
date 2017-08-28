@@ -1,5 +1,6 @@
 html{
 	font-size:16px;
+	font-family:Helvetica;
 }
 
 header{
@@ -59,7 +60,7 @@ header{
 }
 
 .banner-snippet h1{
-	font-size:2rem;
+	font-size:4rem;
 	font-weight:bold;
 	padding-bottom:2rem;
 	color:black;
@@ -92,9 +93,8 @@ header{
 #side-stories{
 	display:flex;
 	flex-direction:column;
-	padding:1rem 1rem 2rem 1rem;
-	/*align-items:center;*/
-	width:100%;
+	justify-content: center;
+	margin:1rem;
 	height:auto;
 }
 
@@ -106,6 +106,11 @@ header{
 	width:100%;
 }
 
+#side-stories p a{
+	color:blue;
+	font-weight:bold;
+}
+
 .side-story-summary{
 	background-color:#CAEBF2;
 	padding: 2rem 1rem 2rem 1rem;
@@ -113,18 +118,19 @@ header{
 
 .side-story-summary h2{
 	color:black;
-	font-size:1.5rem;
+	font-size:3rem;
 	font-weight:bold;
 	line-height:1.5;
 }
 
 .side-story-summary p{
 	line-height:1.5;
+	font-size:1.5rem;
 	color:grey;
 }
 
 #course-offerings h2{
-	font-size:1.5rem;
+	font-size:3rem;
 	font-weight:bold;
 	padding:2rem 1rem 2rem 1rem;
 	text-align:center;
@@ -135,14 +141,58 @@ header{
 	display:none;
 }
 
+#featured-courses{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom:4rem;
+}
 #featured-courses h3{
 
-	font-size:1.25rem;
+	font-size:2rem;
 	font-weight:bold;
 	background-color:#EFEFEF;
 	color:black;
 	margin:.5rem 1rem .5rem 1rem;
-	padding:1rem auto 1.5rem 1rem;
+	padding:1.5rem 1rem 1.5rem 1rem;
+	line-height:1.5;
+	width:36rem;
+	align-items:center;
 }
 
+#thesis-exhibit h2{
+	font-size:3rem;
+	font-weight:bold;
+	text-align:center;
+	padding:3rem auto 1rem auto;
+}
 
+#thesis-main h3,
+#thesis-main blockquote{
+	display:none;
+}
+
+#thesis-main video{
+	display:block;
+	width:100%
+	height:auto;
+	margin:1rem auto 1.5rem auto;
+}
+
+#thesis-side{
+	display:none;
+}
+
+footer nav{
+	display:none;
+}
+footer{
+	display:flex;
+	flex-direction:column;
+	padding:1rem;
+	line-height:1.5;
+	background-color:#FF3B3F;
+	color:white;
+	font-weight:bold;
+	font-size:1.5rem;
+}
