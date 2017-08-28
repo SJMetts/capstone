@@ -93,13 +93,17 @@ header{
 	display:flex;
 	flex-direction:column;
 	padding:1rem 1rem 2rem 1rem;
-	align-items:center;
+	/*align-items:center;*/
 	width:100%;
 	height:auto;
 }
 
 #side-stories .side-story-img{
 	display:none;
+}
+
+#side-stories img{
+	width:100%;
 }
 
 .side-story-summary{
