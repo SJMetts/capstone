@@ -1,3 +1,144 @@
 html{
-	background-color:blue;
+	font-size:16px;
 }
+
+header{
+	background-color:#CAEBF2;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+}
+
+#banner-desktop{
+	display:none;
+}
+
+#topnav-desktop{
+	display:none;
+}
+
+#topnav-mobile ul{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items:center;
+	height:4rem;
+}
+
+#topnav-mobile ul li img{
+	height:2rem;
+	width:auto;
+}
+
+.banner-image{
+	width:100%;
+	height:auto;
+}
+
+.main-story-img{
+	width:100%;
+	height:auto;
+}
+
+.page-intro{
+	background-color:#EFEFEF;
+	color:#A9A9A9;
+}
+
+.page-intro .banner-image{
+	display:none;
+}
+
+.page-intro .banner-image-mobile{
+	width:100%;
+	height:auto;
+}
+
+.banner-snippet{
+	padding:2rem 1rem 2rem 1rem;
+}
+
+.banner-snippet h1{
+	font-size:2rem;
+	font-weight:bold;
+	padding-bottom:2rem;
+	color:black;
+}
+
+.banner-snippet p{
+	font-size:1.5rem;
+	font-weight:bold;
+	line-height:1.5;
+	padding-bottom:1.5rem;
+}
+
+.banner-snippet p a{
+	background-color:#FF3B3F;
+	color:white;
+	font-weight:bold;
+	font-size:1.5rem;
+	line-height:1.5;
+	display:flex;
+	justify-content:center;
+	padding:1rem 6rem 1rem 6rem;
+	margin-left:16px;
+	margin-right:16px;
+}
+
+#main-story{
+	display:none;
+}
+
+#side-stories{
+	display:flex;
+	flex-direction:column;
+	padding:1rem 1rem 2rem 1rem;
+	align-items:center;
+	width:100%;
+	height:auto;
+}
+
+#side-stories .side-story-img{
+	display:none;
+}
+
+.side-story-summary{
+	background-color:#CAEBF2;
+	padding: 2rem 1rem 2rem 1rem;
+}
+
+.side-story-summary h2{
+	color:black;
+	font-size:1.5rem;
+	font-weight:bold;
+	line-height:1.5;
+}
+
+.side-story-summary p{
+	line-height:1.5;
+	color:grey;
+}
+
+#course-offerings h2{
+	font-size:1.5rem;
+	font-weight:bold;
+	padding:2rem 1rem 2rem 1rem;
+	text-align:center;
+}
+
+#featured-courses img,
+#featured-courses p{
+	display:none;
+}
+
+#featured-courses h3{
+
+	font-size:1.25rem;
+	font-weight:bold;
+	background-color:#EFEFEF;
+	color:black;
+	margin:.5rem 1rem .5rem 1rem;
+	padding:1rem auto 1.5rem 1rem;
+}
+
+
