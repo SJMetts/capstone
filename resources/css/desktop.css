@@ -1,0 +1,240 @@
+html{
+	width:100%;
+}
+
+header{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	height:auto;
+}
+
+#colmar-banner{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	background-color:#CAEBF2;
+
+}
+#banner-desktop{
+	display:flex;
+	align-items:center;
+	margin:.5rem;
+	margin-left:1rem;
+}
+
+#desktop-header{
+	display:flex;
+	flex-direction:row;
+}
+
+#banner-desktop strong{
+	font-weight:bold;
+}
+
+#topnav-mobile{
+	display:none;
+}
+
+#topnav-desktop {
+	display:flex;
+	align-items:center;
+	font-size:1.1rem;
+	padding-right:1rem;
+}
+
+#topnav-desktop ul{
+	list-style: none;
+	display:flex;
+
+}
+
+#topnav-desktop ul li{
+	display:inline-flex;
+	margin-left:1rem;
+
+}
+
+.page-intro{
+	display:flex;
+	align-items:flex-start;
+	width:100%;
+	height:auto;
+	background-color:#EFEFEF;
+}
+
+
+.page-intro .banner-image-mobile{
+	display:none;
+}
+
+.page-intro .banner-image{
+	display:block;
+	width:60%;
+	height:auto;
+	margin:2rem 1.5rem 2rem 1.5rem;
+}
+
+
+.page-intro .banner-snippet{
+	display:flex;
+	flex-direction:column;
+	margin:auto 0 auto 0;
+	background-color:#EFEFEF;
+}
+
+.page-intro h1{
+	font-size:2.5rem;
+}
+
+.page-intro p{
+	font-size:1.25rem;
+}
+
+.page-intro p a{
+	font-size:1rem;
+	margin:0;
+}
+
+#news{
+	display:flex;
+	width:100%;
+	height:auto;
+}
+
+#main-story{
+	display:block;
+	width:63%;
+	height:auto;
+	margin:2rem 1.5rem 2rem 1.5rem;
+}
+
+.main-story-img{
+	width:100%;
+	height:auto;
+	margin:0;
+}
+
+#main-story h3{
+	font-size:1.5rem;
+	font-weight:bold;
+	margin-top:2rem;
+}
+
+#main-story blockquote{
+	font-size:.75rem;
+	margin-top:1.5rem;
+}
+
+#main-story p{
+	font-size:.75rem;
+	margin-top:1rem;
+}
+
+
+
+#side-stories{
+	display:block;
+	/*flex-direction:column;*/
+	margin:2rem 0 2rem 0;
+	width:37%;
+}
+
+.side-story{
+	
+	display:flex;
+	margin:auto 0 auto 0;
+
+
+}
+
+.side-story-img-mobile{
+	display:none;
+}
+
+#side-stories .side-story-img{
+	display:flex;
+	width:35%;
+	height:auto;
+	padding:1rem;
+	background-color: #CAEBF2;
+}
+
+.side-story-summary{
+	width:65%;
+	height:auto;
+	line-height:1.5rem;
+
+}
+
+.side-story-summary h2{
+	font-size:1rem;
+}
+
+.side-story-summary p{
+	font-size:.75rem;
+}
+
+.side-story-summary p a{
+	font-size:.75rem;
+}
+
+#course-offerings{
+	background-color:#EFEFEF;
+}
+
+#course-offerings h2{
+	font-size: 2rem;
+	margin:0;
+	padding-top:2rem;
+}
+
+#featured-courses{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	padding:1rem 4.5rem 2rem 4.5rem;
+
+}
+
+#featured-courses .course{
+	display:block;
+	margin-bottom:2rem;
+	
+}
+
+#feature-courese .course-description{
+	background-color:white;
+
+}
+
+#featured-courses h3{
+	font-size:1rem;
+	padding:1rem 0 1rem 1rem;
+	background-color:white;
+	margin:0;
+	width:auto;
+	
+}
+
+#featured-courses img,
+#featured-courses p{
+	display:block;
+	background-color: white;
+}
+#featured-courses img{
+	width:100%;
+	height:auto;
+}
+
+#featured-courses p{
+	line-height: 1.5;
+	font-size:.75rem;
+	padding-top:.25rem;
+	padding-left:1rem;
+}
+
+#featured-courses .course-classes{
+	padding-bottom:1.5rem;
+}
