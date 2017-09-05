@@ -1,3 +1,5 @@
+
+
 html{
 	font-size:16px;
 	font-family:Helvetica;
@@ -68,7 +70,7 @@ header{
 	padding-bottom:2rem;
 	color:black;
 	line-height:1.25;
-	margin-left:1rem;
+	
 }
 
 .banner-snippet p{
@@ -76,10 +78,9 @@ header{
 	font-weight:bold;
 	line-height:1.5;
 	padding-bottom:1.5rem;
-	margin:1rem;
 }
 
-.banner-snippet p a{
+#start-here{
 	background-color:#FF3B3F;
 	color:white;
 	font-weight:bold;
@@ -88,8 +89,7 @@ header{
 	display:flex;
 	justify-content:center;
 	padding:1rem 6rem 1rem 6rem;
-	margin-left:1rem;
-	margin-right:1rem;
+
 }
 
 #main-story{
@@ -100,7 +100,6 @@ header{
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	margin:1rem;
 	height:auto;
 }
 
@@ -117,9 +116,15 @@ header{
 	font-weight:bold;
 }
 
-.side-story-summary{
+.side-story{
 	background-color:#CAEBF2;
-	padding: 2rem 1rem 2rem 1rem;
+	padding:1rem;
+
+}
+
+.side-story-summary{
+	
+	padding: 2rem 1rem 1rem 1rem;
 }
 
 .side-story-summary h2{
@@ -135,10 +140,11 @@ header{
 	color:grey;
 }
 
+
 #course-offerings h2{
 	font-size:3rem;
 	font-weight:bold;
-	padding:2rem 1rem 2rem 1rem;
+	padding:2rem 1rem .75rem 1rem;
 	text-align:center;
 }
 
@@ -150,8 +156,7 @@ header{
 #featured-courses{
 	display:flex;
 	flex-direction:column;
-	align-items:center;
-	margin-bottom:2rem;
+	padding-bottom:2rem;
 }
 #featured-courses h3{
 
@@ -159,10 +164,9 @@ header{
 	font-weight:bold;
 	background-color:#EFEFEF;
 	color:black;
-	margin:.5rem 1rem .5rem 1rem;
-	padding:1.5rem 1rem 1.5rem 1rem;
+	margin:.25rem 1rem .25rem 1rem;
+	padding:1rem 0 1.5rem 1rem;
 	line-height:1.5;
-	width:36rem;
 	align-items:center;
 }
 
@@ -170,8 +174,9 @@ header{
 	font-size:3rem;
 	font-weight:bold;
 	text-align:center;
-	padding:3rem auto 1rem auto;
-	margin-bottom:2rem;
+	/*padding:3rem auto 1rem auto;*/
+	margin-bottom:1rem;
+	margin-top:2rem;
 }
 
 #thesis-main h3,
@@ -202,5 +207,5 @@ footer{
 	background-color:#FF3B3F;
 	color:white;
 	font-weight:bold;
-	font-size:1.5rem;
+	font-size:1rem;
 }
